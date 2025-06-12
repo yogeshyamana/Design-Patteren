@@ -3,21 +3,21 @@
  * This class demonstrates the Singleton Design Pattern in Apex.
  * The Singleton pattern ensures that a class has only one instance and provides a global point of access to it.
  * 
- * ⚙️ Use Case:
+ * Use Case:
  * - When you need to share a single instance of a class (e.g., configuration manager, caching logic, utility service).
  * - Helps in scenarios where creating multiple instances would be expensive or unnecessary.
  * - Especially useful in stateless Apex contexts where a single reference point is needed.
  *
- * 💡 Example Use Cases in Salesforce:
+ * Example Use Cases in Salesforce:
  * - Accessing application-level settings stored in Custom Metadata or Custom Settings.
  * - Reusing complex calculations or configuration logic without repeated instantiations.
  * - Managing transaction-scoped state (e.g., logging).
  *
- * ❗ Important:
+ * Important:
  * - Singleton is scoped to a single transaction context in Apex.
  * - Not truly global across requests (like static in Java or .NET), but useful within the current transaction.
  *
- * 🔒 Thread Safety:
+ * Thread Safety:
  * - Apex executes in a single-threaded environment (per request), so thread safety is not an issue.
  */
 public class SingletonExample {
