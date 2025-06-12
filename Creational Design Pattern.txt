@@ -1,0 +1,8 @@
+Creational Design Pattern 
+    Factory Pattern , Builder Pattern, Singleton Pattern etc
+
+Structural Design Pattern 
+    Proxy Pattern , Adaptor Pattern etc 
+
+Behavioral Design Pattern 
+    Observaer Pattern , State Pattern , Iterator Pattern    
